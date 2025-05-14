@@ -5,7 +5,6 @@ import hashlib
 from functools import lru_cache
 import uuid
 import base64
-import pyperclip  # For clipboard functionality
 
 st.set_page_config(
     page_title="Oracle to Snowflake DDL Converter & Validator",
